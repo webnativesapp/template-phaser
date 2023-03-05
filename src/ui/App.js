@@ -1,22 +1,5 @@
-# Template > Phaser V3
-
-Includes official [Phaser - Hello World! ](https://phaser.io/tutorials/getting-started-phaser3/part5) guide setup.
-
-#### External dependencies.
-- Scripts
-> //cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js
-
-#### Folder structure
-- 📁/root
-    - 📁/logic *all your app logic should be here*
-    - 📁/ui *all your user interface logic should be here*
-        - 📁/schemas *auto generated JSON schemas from the [WYSIWYG Editor](#wysiwyg)*
-        - 🗎 Bootstrap.js
-        - 🗎 App.js *__entry file__*
-    - 📁/workers *__advanced__: place and register your service workers here*
-
-### To start just modify the src/ui/App.js file.
-```
+var namespace = 'App';
+//----------------------------------------------------------------------------------------------------------------------
 class App {
 
   constructor() {}
@@ -80,9 +63,6 @@ class App {
     
   }
 }
-```
-
-#### Find the live demo [here](https://webnatives.app/templates).
-
----------------------------
-© 2023 WebNatives
+//----------------------------------------------------------------------------------------------------------------------
+exports = App;
+//--------------------------------------------------------------------------------------------------------------------EOF
